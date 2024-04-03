@@ -5,6 +5,6 @@ function init(){
     document.getElementById('textoutput').innerHTML = textinput.value;
     alert("Osaze Osawe: " + textinput.value);
   }
-  button.addEventListener('click', displayText);
+  buttonInput.addEventListener('click', displayText);
 }  
 window.addEventListener('load', init);
