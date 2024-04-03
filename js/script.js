@@ -1,5 +1,5 @@
 function init(){
-  var buttonInput = document.getElementById('AlertMebutton');
+  var buttonInput = document.getElementById('entrybutton');
   function displayText(){
     var textinput = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textinput.value;
